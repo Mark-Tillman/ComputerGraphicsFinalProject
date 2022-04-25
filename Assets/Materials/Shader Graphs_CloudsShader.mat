@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4387620466353250570
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 11
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_CloudsShader
+  m_Shader: {fileID: -6465566751694194690, guid: faf8d279d0f4d5c44a1438bf30c9541d, type: 3}
+  m_ShaderKeywords: _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_06a3e98d54be4e88ab7c72ec2d135b9e: -1
+    - Vector1_07307cea33374b95b83553fa011000a9: 20
+    - Vector1_0c9ac0ada26042eda18b38cefa5bd722: 100
+    - Vector1_126294f819154e01babd15de24b0dcdf: 2
+    - Vector1_2791a2359dde434a8a8d66dfedc45467: 30
+    - Vector1_3727692f19a0441881a44332750384b4: 8
+    - Vector1_3bba44af94a14d85a72a059ad667019a: 1
+    - Vector1_428946cfbea04513a5ec4e907ba9d0fe: 2
+    - Vector1_5d44126649bb4ae7a6f00d5a90a3de11: 2
+    - Vector1_750a614156bc4b279f7d574f21e8396d: 2
+    - Vector1_8fb2184f99ae4ecfab2fe3a1abe4d7e2: 0.02
+    - Vector1_980727d126eb46879eed60dd9e2cf40c: 0.01
+    - Vector1_cd65e45d2a7544bc907a7ef628dbf917: 250
+    - Vector1_d0b3c993072a41fbb4b25b0b9fe514a3: 0.1
+    - Vector1_dbfa3d4c62b644f193fc3767d184e801: 30
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 10
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BlendMode: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableFogOnTransparent: 1
+    - _OpaqueCullMode: 2
+    - _RenderQueueType: 4
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SurfaceType: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 0
+    m_Colors:
+    - Color_6435319903a44f13b66559e7566deca7: {r: 0.9009434, g: 1, b: 0.9964765, a: 0}
+    - Color_bcb555a799fd42629493b07f0b2c56fb: {r: 0.37936097, g: 0.47312334, b: 0.5188679, a: 1}
+    - Vector2_70ae71804bd244eb8162898347b7a6ef: {r: -1, g: 1, b: 0, a: 0}
+    - Vector2_aab459ce3c924b3aa8c276d33ed2b0bc: {r: 0, g: 1, b: 0, a: 0}
+    - Vector4_4a0799c58ade4a279b8c68ae02fedc75: {r: 1, g: 0, b: 0, a: 90}
+    - Vector4_a44755f713fb47168b6adda63480449e: {r: 0, g: 1, b: -0.3, a: 2.7}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
