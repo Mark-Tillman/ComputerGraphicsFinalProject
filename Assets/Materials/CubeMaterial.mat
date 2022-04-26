@@ -27,7 +27,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
-  stringTagMap: {}
+  stringTagMap:
+    MotionVector: User
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -130,6 +131,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_06a3e98d54be4e88ab7c72ec2d135b9e: 0
+    - Vector1_07307cea33374b95b83553fa011000a9: 0.1
+    - Vector1_0c9ac0ada26042eda18b38cefa5bd722: 1
+    - Vector1_126294f819154e01babd15de24b0dcdf: 1
+    - Vector1_2791a2359dde434a8a8d66dfedc45467: 10
+    - Vector1_3727692f19a0441881a44332750384b4: 2
+    - Vector1_3bba44af94a14d85a72a059ad667019a: 1
+    - Vector1_428946cfbea04513a5ec4e907ba9d0fe: 1
+    - Vector1_5d44126649bb4ae7a6f00d5a90a3de11: 2
+    - Vector1_750a614156bc4b279f7d574f21e8396d: 1
+    - Vector1_8fb2184f99ae4ecfab2fe3a1abe4d7e2: 10
+    - Vector1_980727d126eb46879eed60dd9e2cf40c: 5
+    - Vector1_cd65e45d2a7544bc907a7ef628dbf917: 1
+    - Vector1_dbfa3d4c62b644f193fc3767d184e801: 0.1
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -200,6 +215,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
+    - _RenderQueueType: 1
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -209,10 +225,12 @@ Material:
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
     - _StencilRefGBuffer: 10
     - _StencilRefMV: 40
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
@@ -239,6 +257,10 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - Color_6435319903a44f13b66559e7566deca7: {r: 1, g: 1, b: 1, a: 0}
+    - Color_bcb555a799fd42629493b07f0b2c56fb: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_4a0799c58ade4a279b8c68ae02fedc75: {r: 1, g: 0, b: 0, a: 0}
+    - Vector4_a44755f713fb47168b6adda63480449e: {r: 0, g: 1, b: -1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
