@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_CloudsShader 1
   m_Shader: {fileID: -6465566751694194690, guid: faf8d279d0f4d5c44a1438bf30c9541d, type: 3}
-  m_ShaderKeywords: _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _DOUBLESIDED_ON _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -52,14 +52,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_06a3e98d54be4e88ab7c72ec2d135b9e: -1
-    - Vector1_07307cea33374b95b83553fa011000a9: 500
-    - Vector1_0c9ac0ada26042eda18b38cefa5bd722: 102.32
+    - Vector1_07307cea33374b95b83553fa011000a9: 30
+    - Vector1_0c9ac0ada26042eda18b38cefa5bd722: 102
     - Vector1_126294f819154e01babd15de24b0dcdf: 3
-    - Vector1_2791a2359dde434a8a8d66dfedc45467: 252.7
+    - Vector1_2791a2359dde434a8a8d66dfedc45467: 30
     - Vector1_3727692f19a0441881a44332750384b4: 8.7
     - Vector1_3bba44af94a14d85a72a059ad667019a: 1
     - Vector1_428946cfbea04513a5ec4e907ba9d0fe: 2
-    - Vector1_5d44126649bb4ae7a6f00d5a90a3de11: 18.4
+    - Vector1_5d44126649bb4ae7a6f00d5a90a3de11: 1.7
     - Vector1_750a614156bc4b279f7d574f21e8396d: 2
     - Vector1_8fb2184f99ae4ecfab2fe3a1abe4d7e2: 0.02
     - Vector1_980727d126eb46879eed60dd9e2cf40c: 0.002
@@ -80,7 +80,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _EnableBlendModePreserveSpecularLighting: 0
-    - _EnableFogOnTransparent: 1
+    - _EnableFogOnTransparent: 0
     - _OpaqueCullMode: 2
     - _RenderQueueType: 4
     - _SrcBlend: 1
@@ -108,11 +108,11 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - Color_6435319903a44f13b66559e7566deca7: {r: 0.9433962, g: 0.80106527, b: 0.7965468, a: 0}
-    - Color_bcb555a799fd42629493b07f0b2c56fb: {r: 0.011569952, g: 0.35403028, b: 0.49056602, a: 1}
+    - Color_6435319903a44f13b66559e7566deca7: {r: 0.8018868, g: 0.47191107, b: 0.374466, a: 1}
+    - Color_bcb555a799fd42629493b07f0b2c56fb: {r: 0.20741367, g: 0.35376534, b: 0.5566038, a: 1}
     - Vector2_70ae71804bd244eb8162898347b7a6ef: {r: -1, g: 1, b: 0, a: 0}
     - Vector2_aab459ce3c924b3aa8c276d33ed2b0bc: {r: 0, g: 1, b: 0, a: 0}
-    - Vector4_4a0799c58ade4a279b8c68ae02fedc75: {r: 0, g: 0, b: 1, a: 90}
+    - Vector4_4a0799c58ade4a279b8c68ae02fedc75: {r: 1, g: 0, b: 0, a: 90}
     - Vector4_a44755f713fb47168b6adda63480449e: {r: 0, g: 1, b: -0.3, a: 2.7}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
