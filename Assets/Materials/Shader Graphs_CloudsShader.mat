@@ -65,7 +65,7 @@ Material:
     - Vector1_980727d126eb46879eed60dd9e2cf40c: 0.002
     - Vector1_cd65e45d2a7544bc907a7ef628dbf917: 250
     - Vector1_d0b3c993072a41fbb4b25b0b9fe514a3: 0.1
-    - Vector1_dbfa3d4c62b644f193fc3767d184e801: 30
+    - Vector1_dbfa3d4c62b644f193fc3767d184e801: 60
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
